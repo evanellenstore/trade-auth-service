@@ -11,7 +11,7 @@
 	<groupId>com.trade.auth</groupId>
 	<artifactId>trade-auth-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>auth-service</name>
+	<name>trade-auth-service</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
