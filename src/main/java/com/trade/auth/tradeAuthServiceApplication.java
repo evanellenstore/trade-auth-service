@@ -6,10 +6,10 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
 @EnableFeignClients
-public class tradeAuthServiceApplication {
+public class TradeAuthServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(tradeAuthServiceApplication.class, args);
+		SpringApplication.run(TradeAuthServiceApplication.class, args);
 	}
 
 }
