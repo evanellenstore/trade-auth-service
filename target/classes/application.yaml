@@ -1,9 +1,9 @@
 server:
-  port: 2040
+  port: 3040
 
 spring:
   application:
-    name: auth-service
+    name: trade-auth-service
 
 user:
   service:
