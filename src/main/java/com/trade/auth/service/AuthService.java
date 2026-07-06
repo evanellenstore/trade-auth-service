@@ -38,10 +38,13 @@ public class AuthService {
                 user.getUsername(),
                 user.getRole());
 
+        String refresh = jwtUtil.generateRefreshToken(user.getUsername(), user.getRole());
+
         return AuthResponse.builder()
                 .token(token)
                 .username(user.getUsername())
                 .role(user.getRole())
+                .refreshToken(refresh)
                 .build();
     }
 
